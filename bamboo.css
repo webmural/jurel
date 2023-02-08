@@ -1,0 +1,31 @@
+html {
+  font-family: monospace;
+  font-size: max(20pt, 12vmin);
+  line-height: 1.618;
+}
+
+body {
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+article {
+  text-align: end;
+  align-items: flex-end;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  max-width: 10em;
+  min-height: 100vh;
+  padding: 2em;
+}
+
+b {
+  text-shadow:
+    0 -8vh 1em,
+    0 -5vh 0,
+    0 -3vh 0,
+    0 -2vh 0,
+    0 -1vh 0;
+}

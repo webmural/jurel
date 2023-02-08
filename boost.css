@@ -1,0 +1,28 @@
+::selection {
+  text-shadow: 0 -1ex 0 hotpink;
+  background: hotpink;
+  color: black;
+}
+
+:root {
+  color: #111;
+  background-color: skyblue;
+  background-image: linear-gradient(.2turn, powderblue 0%, powderblue 12%, deepskyblue 12%);
+}
+
+:any-link {
+  color: #111;
+}
+
+:focus {
+  outline: thick groove;
+  text-shadow:
+    0 -1vmax 0 coral,
+    0 -1vmin 0 coral;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :any-link {
+    transition: text-shadow 300ms ease-out;
+  }
+}
